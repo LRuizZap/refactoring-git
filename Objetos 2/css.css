@@ -1,0 +1,23 @@
+table, th, td {
+    text-align: center;
+    border-collapse: collapse;
+    padding: .25em;
+    border: 2px solid black ;
+}
+
+input{
+    margin: .25em;
+} 
+
+#dos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+table {
+    margin-left: 1em;
+}
+
+h1, h2 {
+    text-align: center;
+}

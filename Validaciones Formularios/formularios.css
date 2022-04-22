@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+legend {
+    text-align: center;
+}
+
+form {
+    margin: 5%;
+    width: 90%;
+}
+
+.Ej1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Ej1 label, .Ej1 textarea {
+    padding-bottom: 1em;
+    margin: .5em;
+}
+
+.Ej1 input{
+    height: 20px;
+    margin: .5em;
+}
+
+.Ej1 > div{
+    grid-column: 2;
+}
+
+.Ej1 button[type="submit"] {
+    grid-column: 2;
+    margin-top: .75em;
+    margin-left: .5em;
+    width: 30%;
+    height: auto;
+}
+

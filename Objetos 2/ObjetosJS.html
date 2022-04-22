@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objetos</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1>Ejercicios Objetos</h1>
+
+    <section>
+        <!-- <script>
+                //Objeto 1
+                let objeto1 = new Object();
+                objeto1.nombre = "Pepe";
+                objeto1.apellidos = "Fernández García";
+                objeto1.edad = 39;
+                function edad1(persona) {
+                    persona.edad = persona.edad + 1;
+                }
+                edad1(objeto1);
+                document.write(objeto1.nombre);
+                document.write(" ");
+                document.write(objeto1.apellidos);
+                document.write(" ");
+                document.write(objeto1.edad);
+                document.write(".</hr></br>");
+                //Objeto 2
+                let objeto2 = {
+                    nombre: "Lucía",
+                    apellidos: "García Gomez",
+                    edad: 42,
+                };
+                function edad2(persona) {
+                    persona.edad = persona.edad + 1;
+                }
+                edad2(objeto2);
+                document.write(objeto2.nombre);
+                document.write(" ");
+                document.write(objeto2.apellidos);
+                document.write(" ");
+                document.write(objeto2.edad);
+                document.write(".</hr>");
+            </script> -->
+
+    <h2>Inventario</h2>
+    <h3>Enunciado</h3>
+    <p>
+        Crear el objeto para el Inventario, ropa de tipo(camisa, pantalón, traje,
+        complemento). Por cada tipo de artículo debemos poder realizar
+        <ol>
+            <li>añadir el artículo, la talla y la cantidad</li>
+            <li>eliminar un artículo</li>
+            <li>consultar la cantidad de un artículo</li>
+            <li>consultar todos los artículos de ese tipo (Con que se muestren por pantalla sirve)</li>
+        </ol>
+    </p>
+    <section id="dos">
+        <form action="" id="ROPAForm">
+            <div>
+                <label for="articulos">Artículo</label>
+                <input type="text" id="articulos" placeholder="Ingresa el Artículo" />
+            </div>
+
+            <div>
+                <label for="talla">Talla</label>
+                <input type="number" id="talla" min="1" max="100" placeholder="ingresa la talla" />
+            </div>
+
+            <div>
+                <label for="cantidad">Cantidad</label>
+                <input type="number" id="cantidad" min="0" max="999" placeholder="ingresa la cantidad" />
+            </div>
+
+
+            <div>
+                <input type="button" value="Añadir" onclick="dataOBJ()">
+                <input type="button" value="Borrar" onclick="Eliminar()">
+            </div>
+
+        </form>
+        <div id="ropa">
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Artículo</th>
+                        <th>Talla</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody class="table" id="table">
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="./ObjetosJS.js"></script>
+    <script src="./Interfaz.js"></script>
+</body>
+
+</html>
