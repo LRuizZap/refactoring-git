@@ -2,18 +2,11 @@
 
 1. 
 
-Haz una calculadora con las funciones +, -, * y /
+
+Dado un vector de enteros, comprobar el mayor, el menor y por último la media de todos.
+El botón «Cargar Ejemplo» pondrá un ejemplo de números predefinidos.
 
 2. 
-
-Crear el objeto para el Inventario, ropa de tipo(camisa, pantalón, traje, complemento). Por cada tipo de artículo debemos poder realizar
-
-añadir el artículo, la talla y la cantidad
-eliminar un artículo
-consultar la cantidad de un artículo
-consultar todos los artículos de ese tipo (Con que se muestren por pantalla sirve)
-
-3. 
 
 Realizar la serie de Fibonacci, finita.
 
@@ -27,8 +20,21 @@ Realizar la serie de Fibonacci, finita.
             Cada término de la secuencia después de los dos primeros, es la suma de los dos
             términos previos.
             1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8, 5 + 8 = 13 y así en adelante
+            
+3.
 
+  Haz una calculadora con las funciones +, -, * y /        
+            
 4.
+
+Crear el objeto para el Inventario, ropa de tipo(camisa, pantalón, traje, complemento). Por cada tipo de artículo debemos poder realizar
+
+añadir el artículo, la talla y la cantidad
+eliminar un artículo
+consultar la cantidad de un artículo
+consultar todos los artículos de ese tipo (Con que se muestren por pantalla sirve)
+
+5.
 
 Valida el contenido introducidos en todos campos según las siguientes especificaciones:
 
@@ -43,8 +49,3 @@ Validar también que no puedan dejarse en blanco.
 En caso de que se informe correctamente guardar la información en un objeto, en caso
 contrario mostrar un mensaje de error.
 
-5.
-
-Dado un vector de enteros, comprobar el mayor, el menor y por último la media de
-                todos.
-                El botón «Cargar Ejemplo» pondrá un ejemplo de números predefinidos.
