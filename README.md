@@ -25,7 +25,12 @@ Realizar la serie de Fibonacci, finita.
             
 3.
 
-  Haz una calculadora con las funciones +, -, * y /        
+  Haz una calculadora con las funciones +, -, * y /   
+
+  MODIFICACIÓN:
+  - Dos nuevas funciones para leer y enviar resultados
+  - Cambios de variables
+  - Eliminación de comentarios que no eran necesarios     
             
 4.
 
