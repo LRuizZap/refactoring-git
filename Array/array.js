@@ -1,4 +1,5 @@
-
+const $RESULTADOS = document.getElementById("ResultadoFibonacci")
+console.log($RESULTADOS)
 
 // function pulsar() {
 //     var array = [];
@@ -8,15 +9,15 @@
 //     document.getElementById("resultado4").innerHTML = "El número de palabras es de: " + numpal + "<br> La primera palabra es: " + primpal;
 // }
 
-function Fibonacci() {
+function fibonacci() {
     var array = [0, 1];
     for (i = 2; i <= 100; i++) {
         //push para añadir 
         array.push(array[i - 1] + array[i - 2]);
     }
-    document.getElementById("ResultadoFibonacci").innerHTML = array;
+    $RESULTADOS.innerText = array;
 }
-document.getElementById("ResultadoFibonacci").innerHTML = array;
+$RESULTADOS.innerText = array;
 
 // function na1(){
 //     var n = document.getElementById("N").value;
