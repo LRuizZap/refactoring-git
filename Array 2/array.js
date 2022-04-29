@@ -8,7 +8,7 @@ function Reiniciar() {
 
 function calcular() {
     let array = document.getElementById("ej1txt").value.split(/,/);
-    var mayor = -Infinity, sum = 0, med = 0, men = +Infinity;
+    var mayor = Number.MIN_VALUE, sum = 0, med = 0, men = Number.MAX_VALUE;
 
     // sum
 
