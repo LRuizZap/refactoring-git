@@ -1,11 +1,5 @@
-let x, y;
-
-// Lectura y Envío
-function lectura()
-{
-    x = document.getElementById("calculadora").value;
-    y = document.getElementById("calculadora2").value;
-}
+    const n1 = document.getElementById("calculadora").value;
+    const n2 = document.getElementById("calculadora2").value;
 
 function resultado(dato)
 {
@@ -15,28 +9,24 @@ function resultado(dato)
 // Operaciones
 function suma() {
     
-    lectura();
-    const s = parseFloat(x) + parseFloat(y);
-    resultado(s);
+    let suma = parseFloat(n1) + parseFloat(n2);
+    resultado(suma);
 }
 
 function multiplicar() 
 {
-    lectura();
-    const m = parseFloat(x) * parseFloat(y);
-    resultado(m);
+    let multiplicar = parseFloat(n1) * parseFloat(n2);
+    resultado(multiplicar);
 }
 
 function restar ()
 {
-    lectura();
-    const r = parseFloat(x) - parseFloat(y);
-    resultado(r);
+    let restar = parseFloat(n1) - parseFloat(n2);
+    resultado(restar);
 }
 
 function dividir() 
 {
-    lectura();
-    const d = parseFloat(x) / parseFloat(y);
-    resultado(d);
+    let dividir = parseFloat(n1) / parseFloat(n2);
+    resultado(dividir);
 }
