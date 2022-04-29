@@ -17,22 +17,18 @@
 
 //dataOBJ --> sirve para crear el objeto con sus características y agregarlo a la tabla
 
-function dataOBJ() {
-    function Ropa(a, t, c) {
-        this.a = a,
-            this.t = t,
-            this.c = c;
+function OBJRopa() {
+    function Ropa(articulo, talla, cantidad) {
+        this.articulo = articulo,
+            this.talla = talla,
+            this.cantidad = cantidad;
     }
 
-    var x;
-    var y;
-    var tabla;
-    var columna;
-    var a2 = document.getElementById("articulos").value;
-    var t2 = document.getElementById("talla").value;
-    var c2 = document.getElementById("cantidad").value;
+    var articuloNew = document.getElementById("articulos").value;
+    var tallaNew = document.getElementById("talla").value;
+    var cantidadNew = document.getElementById("cantidad").value;
 
-    nuevaROPA = new Ropa(a2, t2, c2);
+    nuevaROPA = new Ropa(articuloNew, tallaNew, cantidadNew);
     // console.log(nuevaROPA);
     Agregar();
 }
