@@ -8,20 +8,20 @@ function Reiniciar() {
 
 function calcular() {
     let array = document.getElementById("ej1txt").value.split(/,/);
-    var mayor = -Infinity, sum = 0, med = 0, men = +Infinity;
+    let mayor = -Infinity, sum = 0, med = 0, men = +Infinity;
 
-    // sum
+    // suma
 
     for (i = 0; i < array.length; i++) {
         sum = parseInt(array[i]) + sum;
     }
 
-    // med
+    // media
 
-    var a = array.length
+    let a = array.length
     med = sum / a;
 
-    // men
+    // menor
 
     for (i = 0; i < a; i++) {
         if (parseInt(a) < men) {
@@ -38,8 +38,8 @@ function calcular() {
     }
 
     //RESULTADO
-    document.getElementById("resultado1").innerHTML = "La sum es:" + sum + "<br>" +
-        "La med es:" + med + "<br>" +
-        "El mayor es:" + mayor + "<br>" +
-        "El men es:" + men + "<br>";
+    document.getElementById("resultado1").innerHTML = "La suma es:" + sum + "<p>" +
+        "La media es:" + med + "<p>" +
+        "El mayor es:" + mayor + "<p>" +
+        "El menor es:" + men + "<p>";
 }
